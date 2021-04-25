@@ -37,6 +37,7 @@ change settings in "Raspimenu" -> "Preferences" -> "Screen Config"
 set Orientation to right  
 <img alt="Screen Editor" src="./doc/screen-editor.amoled.png" height="400" />
 
+VNC Display and physical display is rotated, however when starting KODI, it is still in Portrait orientation... why?
 
 ## Install / Configure Internet Radio
 Instructions from https://www.reichelt.de/magazin/how-to/kodi-internetradio/  
