@@ -22,6 +22,20 @@ see also https://www.waveshare.com/w/upload/b/be/5.5inch_HDMI_AMOLED_User_Manual
 append to /boot/config.txt  
 `display_rotate=1 #1: 90; 2: 180; 3: 270` and reboot
 and for touch rotating
+NOTE: not working
+```
+sudo apt-get install xserver-xorg-input-libinput
+sudo mkdir /etc/X11/xorg.conf.d
+sudo cp /usr/share/X11/xorg.conf.d/40-libinput.conf /etc/X11/xorg.conf.d/
+```
+inside `/etc/X11/xorg.conf.d/40-libinput.conf`  
+section `Identifier "libinput touchscreen catchall"` add  
+`Option "CalibrationMatrix" "0 1 0 -1 0 1 0 0 1"`  
+reboot  
+not working  
+change settings in "Raspimenu" -> "Preferences" -> "Screen Config"  
+set Orientation to right
+see ![Screen Editor](raspberry3/doc/screen-editor.amoled.png)
 
 
 ## Install / Configure Internet Radio
