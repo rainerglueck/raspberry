@@ -15,6 +15,24 @@ hdmi_timings=1080 1 26 4 50 1920 1 8 2 6 0 0 0 60 0 135580000 3
 dtoverlay=vc4-fkms-v3d
 ```
 4. restart - OK
+### install a screen saver
+`sudo apt-get install xscreensaver`
+### rotation settings
+see also https://www.waveshare.com/w/upload/b/be/5.5inch_HDMI_AMOLED_User_Manual_EN.pdf  
+append to /boot/config.txt  
+`display_rotate=1 #1: 90; 2: 180; 3: 270` and reboot
+and for touch rotating
+
+
+## Install / Configure Internet Radio
+Instructions from https://www.reichelt.de/magazin/how-to/kodi-internetradio/  
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install kodi
+sudo reboot
+```
+
 
 ## Network Setup Moosstrasse 11
 <li>eth0: 192.168.1.5
