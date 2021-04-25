@@ -34,8 +34,8 @@ section `Identifier "libinput touchscreen catchall"` add
 reboot  
 not working  
 change settings in "Raspimenu" -> "Preferences" -> "Screen Config"  
-set Orientation to right
-see <img alt="Screen Editor" src="./doc/screen-editor.amoled.png" height="400" />
+set Orientation to right  
+<img alt="Screen Editor" src="./doc/screen-editor.amoled.png" height="400" />
 
 
 ## Install / Configure Internet Radio
