@@ -35,7 +35,7 @@ reboot
 not working  
 change settings in "Raspimenu" -> "Preferences" -> "Screen Config"  
 set Orientation to right
-see ![Screen Editor](raspberry3/doc/screen-editor.amoled.png)
+see ![Screen Editor](./doc/screen-editor.amoled.png)
 
 
 ## Install / Configure Internet Radio
